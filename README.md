@@ -11,5 +11,8 @@ This tiny project is an example to show how to:
 This work are mainly based on previous works including INAppStoreWindow & WAYWindow, MANY THANKS to @We are Yeah! & @indragie.
 
 
+![alt tag](https://github.com/ZHANGneuro/NStitlebar_with_item/blob/master/screenshot.png)
+
+
 bo 
 2017-01-15
