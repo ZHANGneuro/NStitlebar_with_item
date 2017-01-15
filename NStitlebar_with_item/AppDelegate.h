@@ -12,13 +12,8 @@
 
 
 @property (strong) IBOutlet NSWindow *window;
-
-@property (strong) NSTitlebarAccessoryViewController *dummyTitlebarAccessoryViewController;
-
-
 @property (weak) IBOutlet NSView *titlebar;
-@property (nonatomic) IBInspectable CGFloat titleBarHeight;
-@property (strong) NSView *documentContentView;
+@property (strong) NSTitlebarAccessoryViewController *dummyTitlebarAccessoryViewController;
 
 @end
 

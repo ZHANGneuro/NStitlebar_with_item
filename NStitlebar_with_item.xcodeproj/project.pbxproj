@@ -11,8 +11,6 @@
 		F8A664741E2B5F3200A84C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A664731E2B5F3200A84C86 /* main.m */; };
 		F8A664761E2B5F3200A84C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A664751E2B5F3200A84C86 /* Assets.xcassets */; };
 		F8A664791E2B5F3200A84C86 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A664771E2B5F3200A84C86 /* MainMenu.xib */; };
-		F8A664841E2B5F3300A84C86 /* NStitlebar_with_itemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A664831E2B5F3300A84C86 /* NStitlebar_with_itemTests.m */; };
-		F8A6648F1E2B5F3300A84C86 /* NStitlebar_with_itemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A6648E1E2B5F3300A84C86 /* NStitlebar_with_itemUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +39,7 @@
 		F8A664781E2B5F3200A84C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F8A6647A1E2B5F3200A84C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A6647F1E2B5F3300A84C86 /* NStitlebar_with_itemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NStitlebar_with_itemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A664831E2B5F3300A84C86 /* NStitlebar_with_itemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NStitlebar_with_itemTests.m; sourceTree = "<group>"; };
-		F8A664851E2B5F3300A84C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A6648A1E2B5F3300A84C86 /* NStitlebar_with_itemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NStitlebar_with_itemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A6648E1E2B5F3300A84C86 /* NStitlebar_with_itemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NStitlebar_with_itemUITests.m; sourceTree = "<group>"; };
-		F8A664901E2B5F3300A84C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				F8A6646E1E2B5F3200A84C86 /* NStitlebar_with_item */,
-				F8A664821E2B5F3300A84C86 /* NStitlebar_with_itemTests */,
-				F8A6648D1E2B5F3300A84C86 /* NStitlebar_with_itemUITests */,
 				F8A6646D1E2B5F3200A84C86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,24 +104,6 @@
 				F8A664731E2B5F3200A84C86 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8A664821E2B5F3300A84C86 /* NStitlebar_with_itemTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A664831E2B5F3300A84C86 /* NStitlebar_with_itemTests.m */,
-				F8A664851E2B5F3300A84C86 /* Info.plist */,
-			);
-			path = NStitlebar_with_itemTests;
-			sourceTree = "<group>";
-		};
-		F8A6648D1E2B5F3300A84C86 /* NStitlebar_with_itemUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A6648E1E2B5F3300A84C86 /* NStitlebar_with_itemUITests.m */,
-				F8A664901E2B5F3300A84C86 /* Info.plist */,
-			);
-			path = NStitlebar_with_itemUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A664841E2B5F3300A84C86 /* NStitlebar_with_itemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A6648F1E2B5F3300A84C86 /* NStitlebar_with_itemUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +464,7 @@
 				F8A664951E2B5F3300A84C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8A664961E2B5F3300A84C86 /* Build configuration list for PBXNativeTarget "NStitlebar_with_itemTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +473,7 @@
 				F8A664981E2B5F3300A84C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8A664991E2B5F3300A84C86 /* Build configuration list for PBXNativeTarget "NStitlebar_with_itemUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +482,7 @@
 				F8A6649B1E2B5F3300A84C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
