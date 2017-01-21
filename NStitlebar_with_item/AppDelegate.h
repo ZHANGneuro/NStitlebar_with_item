@@ -12,7 +12,8 @@
 
 
 @property (strong) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSView *titlebar;
+@property (strong) IBOutlet NSView *titlebar;
+@property (strong) IBOutlet NSButton *OpenSideBar;
 @property (strong) NSTitlebarAccessoryViewController *dummyTitlebarAccessoryViewController;
 
 @end

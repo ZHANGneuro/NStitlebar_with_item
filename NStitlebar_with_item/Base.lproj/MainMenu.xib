@@ -681,25 +681,9 @@
             </items>
         </menu>
         <customView id="3cZ-WR-TwR" userLabel="Title Bar View">
-            <rect key="frame" x="0.0" y="0.0" width="400" height="38"/>
+            <rect key="frame" x="0.0" y="0.0" width="400" height="134"/>
             <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES"/>
-            <subviews>
-                <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jYM-JW-BDq">
-                    <rect key="frame" x="83" y="3" width="32" height="32"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="NSUserAccounts" id="1ZK-5O-KFi"/>
-                </imageView>
-                <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OST-vP-yoj">
-                    <rect key="frame" x="123" y="3" width="37" height="38"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="NSUserGroup" id="e5f-3C-5nm"/>
-                </imageView>
-            </subviews>
-            <point key="canvasLocation" x="131" y="262"/>
+            <point key="canvasLocation" x="131" y="310"/>
         </customView>
     </objects>
-    <resources>
-        <image name="NSUserAccounts" width="32" height="32"/>
-        <image name="NSUserGroup" width="32" height="32"/>
-    </resources>
 </document>
